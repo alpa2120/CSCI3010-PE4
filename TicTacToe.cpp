@@ -40,10 +40,22 @@ void DisplayBoard(string** board)
     }
 }
 
+int GetPlayerChoice()
+{
+    string index;
+    cout<<"Please enter the index you would like to mark (0-8): "<<endl;
+    getline(cin,index);
+    cout<<"You entered "<<index<<" as your choice"<<endl;
+    
+    return stoi(index);
+
+}
+
 int main()
 {
     string** board = CreateBoard();
     DisplayBoard(board);
+    int square = GetPlayerChoice();
 
     return 0;
 }
