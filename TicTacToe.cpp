@@ -16,6 +16,10 @@ string** CreateBoard()
     for (int i = 0; i < 3; i ++)
     {
         new_board[i] = new string[3];
+        for (int j = 0; j < 3; j ++)
+        {
+            new_board[i][j] = "-";
+        }
     }
 
     return new_board;
@@ -51,11 +55,26 @@ int GetPlayerChoice()
 
 }
 
+void PlaceMarker(int location, string marker, string** board)
+{
+    int j = location % 3;
+    int i = location / 3;
+
+    board[i][j] = marker;
+}
+
 int main()
 {
     string** board = CreateBoard();
+    for(int i = 0; i < 9; i ++)
+    {
+        string marker;
+        DisplayBoard(board);
+        int square = GetPlayerChoice();
+        if(i%2) marker = "X";
+        else marker = "O";
+        PlaceMarker(square, marker, board);
+    }
     DisplayBoard(board);
-    int square = GetPlayerChoice();
-
     return 0;
 }

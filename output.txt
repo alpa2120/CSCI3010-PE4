@@ -1,0 +1,67 @@
+The current board is: 
+- - -
+- - -
+- - -
+Please enter the index you would like to mark (0-8):
+0
+You entered 0 as your choice
+The current board is:
+O - -
+- - -
+- - -
+Please enter the index you would like to mark (0-8):
+8
+You entered 8 as your choice
+The current board is:
+O - -
+- - -
+- - X
+Please enter the index you would like to mark (0-8):
+1
+You entered 1 as your choice
+The current board is:
+O O -
+- - -
+- - X
+Please enter the index you would like to mark (0-8):
+2
+You entered 2 as your choice
+The current board is:
+O O X
+- - -
+- - X
+Please enter the index you would like to mark (0-8):
+5
+You entered 5 as your choice
+The current board is:
+O O X
+- - O
+- - X
+Please enter the index you would like to mark (0-8):
+4
+You entered 4 as your choice
+The current board is:
+O O X
+- X O
+- - X
+Please enter the index you would like to mark (0-8):
+6
+You entered 6 as your choice
+The current board is:
+O O X
+- X O
+O - X
+Please enter the index you would like to mark (0-8):
+3
+You entered 3 as your choice
+The current board is:
+O O X
+X X O
+O - X
+Please enter the index you would like to mark (0-8):
+7
+You entered 7 as your choice
+The current board is:
+O O X
+X X O
+O O X
